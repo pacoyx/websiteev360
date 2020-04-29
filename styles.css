@@ -14,6 +14,21 @@
  * limitations under the License.
  */
 
+/* INICIO tarjeta de presentacion*/
+.demo-card-square.mdl-card {
+  width: 300px;
+  height: 300px;
+}
+
+.demo-card-square>.mdl-card__title {
+  color: #fff;
+  background:
+    url('./images/contactoPlantilla.png') bottom right 15% no-repeat #46B6AC;
+}
+
+/* FIN tarjeta de presentacion*/
+
+
 body {
   margin: 0;
 }
@@ -390,7 +405,7 @@ a img {
   padding-bottom: 24px;
 }
 
-.android-card-container {}
+/* .android-card-container {} */
 
 .android-card-container .mdl-card__media {
   overflow: hidden;
